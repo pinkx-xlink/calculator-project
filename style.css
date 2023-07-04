@@ -6,6 +6,7 @@
 }
 
 .number-keys {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns:100px 50px 100px;
+    grid-template-rows:80px auto 80px;
 }
