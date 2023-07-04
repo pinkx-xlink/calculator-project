@@ -1,4 +1,9 @@
 * 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .calculator {
     background-color: orange;
     padding:15px;
