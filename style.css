@@ -7,21 +7,28 @@ body {
 .calculator {
     background-color: orange;
     padding:15px;
-    margin:20px;
-    height: 800px;
+    margin:15px;
+    height: 700px;
     width: 450px;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: grey;
 }
 
 .number-keys {
     display: grid;
-    grid-template-columns:100px 100px 100px;
-    grid-template-rows:100px 100px 100px 100px;
+    grid-template-columns:75px 75px 75px;
+    grid-template-rows:75px 75px 75px 75px;
 }
 
 .keys {
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px;
+    grid-template-rows: 75px 75px 75px 75px 75px;
+    grid-template-columns: 75px;
 }
