@@ -3,6 +3,10 @@
     background-color: orange;
     padding:15px;
     margin:20px;
+    height: 800px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
 }
 
 .number-keys {
