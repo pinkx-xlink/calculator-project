@@ -21,3 +21,7 @@ function multiply(num1, num2) {
 
 
 //divide function
+function divide(num1, num2) {
+    let res = num1 / num2;
+    return res;
+}
