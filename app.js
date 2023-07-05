@@ -54,8 +54,8 @@ const calculator = new Calculator(previousOperandTextElement, currentOperandText
 
 numberButtons.forEach(button => {
     button.addEventListener('click', () => {
-        calculator.appendNumber(button.innerText)
-        calculator.updateDisplay()
+        calculator.appendNumber(button.innerText);
+        calculator.updateDisplay();
     })
 })
 
@@ -63,6 +63,8 @@ delete() {
 }
 
 appendNumber(number) {
+    if (number === '.' && this.currentOperand.includes('.')) return
+    this.currentOperand = this.currentOperand.toString() + number.toString()
 }
 
 chooseOperand(operation) {
