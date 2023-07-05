@@ -36,7 +36,7 @@ h1 {
     width: 280px;
     height: 50px;
     background-color: rgb(189, 236, 255);
-    border: 5px solid gray;
+    border: 5px solid rgb(192, 144, 172);
     border-radius: 15px;
     text-align: right;
     font-size: 35px;
@@ -45,6 +45,7 @@ h1 {
 button {
     background-color: rgb(196, 233, 255);
     border-radius: 15px;
+    font-size: 20px;
 }
 .number-buttons {
     display: grid;
