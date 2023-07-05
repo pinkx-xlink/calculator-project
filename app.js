@@ -26,6 +26,7 @@ function divide(num1, num2) {
     return res;
 }
 
+const numberButtons = document.querySelectorAll('[number-buttons]')
 
 //const number 1
 
