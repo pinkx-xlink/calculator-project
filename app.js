@@ -70,7 +70,7 @@ class Calculator {
        }
        if (decimalDigits != null) {
         return `${integerDisplay}.${decimalDigits}`
-       }else{
+       } else {
         return integerDisplay
        }
     } 
@@ -89,7 +89,7 @@ class Calculator {
 
 
 const numberButtons = document.querySelectorAll('[data-number]')
-const operationsButtons = document.querySelector('[data-operation]')
+const operationButtons = document.querySelector('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
 const deleteButton = document.querySelector('[data-delete]')
 const allClearButton = document.querySelector('[data-all-clear]')
