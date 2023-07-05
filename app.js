@@ -138,6 +138,10 @@ equalsButton.addEventListener('click', button => {
     calculate.updateDisplay()
 })
 
+allClearButton.addEventListener('click', button => {
+    calculator.clear()
+    calculator.updateDisplay()
+})
 
 
 
