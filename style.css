@@ -20,6 +20,9 @@ body {
     background-color: rgb(238, 247, 243);
     border: 5px solid gray;
     border-radius: 15px;
+    text-align: right;
+    font-size: 35px;
+    padding: 5px;
 }
 
 
