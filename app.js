@@ -44,9 +44,7 @@ class Calculator {
     }
 }
 
-
-clear() {
-
+clear(){
 }
 
 delete(){
