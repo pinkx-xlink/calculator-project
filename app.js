@@ -126,6 +126,16 @@ numberButtons.forEach(button => {
     })
 })
 
+operationsButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        calculator.chooseOperation(button.innerText)
+        calculator.updateDisplay()
+    })
+})
+
+
+
+
 delete() {
     this.currentOperand = this.currentOperand.toString().slice(0, -)
     deleteButton.addEventListener('click', button => {
