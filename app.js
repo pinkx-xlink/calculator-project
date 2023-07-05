@@ -59,8 +59,13 @@ numberButtons.forEach(button => {
     })
 })
 
-//delete() {
-//}
+delete() {
+    this.currentOperand = this.currentOperand.toString().slice(0, -)
+    deleteButton.addEventListener('click', button => {
+        calculator.delete()
+        calculator.updateDisplay()
+    })
+}
 
 appendNumber(number) {
     if (number === '.' && this.currentOperand.includes('.')) return
@@ -98,6 +103,9 @@ compute() {
         default:
             return
     }
+    this.currentOperand = computation
+    this.operation = undefined
+    this.previousOperand = ''
 }
 
 updateDisplay() {
