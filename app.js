@@ -133,6 +133,11 @@ operationsButtons.forEach(button => {
     })
 })
 
+equalsButton.addEventListener('click', button => {
+    calculator.compute()
+    calculate.updateDisplay()
+})
+
 
 
 
