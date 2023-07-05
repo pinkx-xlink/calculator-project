@@ -1,5 +1,3 @@
-
-
 class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
         this.previousOperandTextElement = previousOperandTextElement
@@ -108,7 +106,7 @@ numberButtons.forEach(button => {
     })
 })
 
-operationsButtons.forEach(button => {
+operationButtons.forEach(button => {
     button.addEventListener('click', () => {
         calculator.chooseOperation(button.innerText)
         calculator.updateDisplay()
