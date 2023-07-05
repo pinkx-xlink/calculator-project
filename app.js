@@ -88,6 +88,11 @@ class Calculator {
         this.operation = undefined
         this.previousOperand = ''
     }
+
+    getDisplayNumber(number) {
+        
+    }
+    
 }
 
 
@@ -137,11 +142,6 @@ updateDisplay() {
         this.previousOperandTextElement.innerText = ''
     }
     //}
-}
-getDisplayNumber(number) {
-    const floatNumber = parseFloat(number)
-    if (isNaN(floatNumber)) return ''
-    return floatNumber.toLocaleString('en')
 }
 
 //const number 1
