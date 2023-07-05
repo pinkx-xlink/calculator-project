@@ -68,6 +68,12 @@ appendNumber(number) {
 }
 
 chooseOperand(operation) {
+    operationsButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            calculator.chooseOperation(button.innerText)
+            calculator.updateDisplay()
+        })
+    })
 }
 
 compute() {
