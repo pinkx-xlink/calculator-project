@@ -44,22 +44,25 @@ class Calculator {
     }
 }
 
-clear(){
+clear() {
+    this.currentOperand = ''
+    this.previousOperand = ''
+    this.operation = undefined
 }
 
-delete(){
+delete() {
 }
 
-appendNumber(number){
+appendNumber(number) {
 }
 
-chooseOperand(operation){
+chooseOperand(operation) {
 }
 
-compute(){
+compute() {
 }
 
-updateDisplay(){
+updateDisplay() {
 }
 
 //const number 1
