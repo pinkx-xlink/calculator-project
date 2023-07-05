@@ -1,35 +1,4 @@
 
-//add function
-function add(num1, num2) {
-   let res = num1 + num2
-   return res
-}
-
-
-//subtract function
-function subtract(num1, num2) {
-    let res = num1 - num2;
-    return res
-}
-
-
-//multiply function
-function multiply(num1, num2) {
-    let res = num1 * num2
-    return res
-}
-
-
-//divide function
-function divide(num1, num2) {
-    let res = num1 / num2
-    return res
-}
-
-
-
-
-
 
 class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
@@ -194,13 +163,13 @@ document.addEventListener('keydown', function (event) {
     }
 });
 
-delete() {
-    this.currentOperand = this.currentOperand.toString().slice(0, -)
-    deleteButton.addEventListener('click', button => {
-        calculator.delete()
-        calculator.updateDisplay()
-    })
-}
+//delete() {
+  //  this.currentOperand = this.currentOperand.toString().slice(0, -)
+    //deleteButton.addEventListener('click', button => {
+      //  calculator.delete()
+        //calculator.updateDisplay()
+  //  })
+//}
 
 
 
