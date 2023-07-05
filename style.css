@@ -29,11 +29,7 @@ body {
     grid-template-rows:75px 75px 75px 75px;
 }
 
-.keys {
-    display: grid;
-    grid-template-rows: 75px 75px 75px 75px 75px;
-    grid-template-columns: 75px;
-}
+
 
 .span-two {
     grid-column: span 2;
