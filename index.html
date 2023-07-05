@@ -11,8 +11,11 @@
 
     <div class="calculator">
 
-        <!--where the equation shows up-->
-        <input class="display" placeholder="0"></input>
+        <!--where the equation shows up: <input class="display" placeholder="0"></input>-->
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
         <!--the # and + * - = keys -->
         <div class="number-buttons">
             <button data-number> 1 </button>
