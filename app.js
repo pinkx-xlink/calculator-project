@@ -27,7 +27,7 @@ function divide(num1, num2) {
 }
 
 const numberButtons = document.querySelectorAll('[data-number]')
-const operationsButtons = document.querySelector('[data-equals]')
+const operationsButtons = document.querySelector('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
 const deleteButton = document.querySelector('[data-delete]')
 const allClearButton = document.querySelector('[data-all-clear]')
