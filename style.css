@@ -2,8 +2,12 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-
+h1 {
+    
+    font-style: italic;
+}
 .calculator {
     background-color: rgb(5, 92, 5);
     padding:15px;
@@ -25,14 +29,12 @@ body {
     padding: 5px;
 }
 
-
 .number-buttons {
     display: grid;
     grid-template-columns:75px 75px 75px 75px;
     grid-template-rows:75px 75px 75px 75px;
+    gap: 5px;
 }
-
-
 
 .span-two {
     grid-column: span 2;
