@@ -37,6 +37,12 @@ class Calculator {
         this.currentOperandTextElement = currentOperandTextElement
         this.clear()
     }
+
+    clear() {
+        this.currentOperand = ''
+        this.previousOperand = ''
+        this.operation = undefined
+    }
 }
 
 
@@ -52,11 +58,7 @@ const currentOperandTextElement = document.querySelector('[data-current-operand]
 
 
 
-clear() {
-    this.currentOperand = ''
-    this.previousOperand = ''
-    this.operation = undefined
-}
+
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
