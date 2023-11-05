@@ -55,7 +55,7 @@ button {
 }
 button:hover {
     background-color: rgb(140, 179, 173);
-    
+    cursor: pointer;
 }
 .number-buttons {
     display: grid;
