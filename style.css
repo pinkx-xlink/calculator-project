@@ -72,10 +72,12 @@ button {
     box-shadow: 2px 4px 1px;
     font-size: 25px;
     font-family: 'Calculator', sans-serif;
+    
 }
 button:hover {
     background-color: rgb(140, 179, 173);
     cursor: pointer;
+    box-shadow: inset 2px 2px 2px;
 }
 .number-buttons {
     display: grid;
