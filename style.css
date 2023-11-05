@@ -49,6 +49,7 @@ h1 {
     flex-wrap: nowrap;
     display: flex;
 }
+
 button {
     background-color: rgb(196, 233, 255);
     border-radius: 15px;
