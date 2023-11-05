@@ -18,9 +18,10 @@ img {
     background-repeat: repeat-y;
 }
 
-
-
-
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
 .calculator {
     background-color: pink;
     padding:15px;
