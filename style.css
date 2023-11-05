@@ -52,6 +52,9 @@ button {
     border-radius: 15px;
     font-size: 20px;
 }
+button:hover {
+    background-color: rgb(140, 179, 173);
+}
 .number-buttons {
     display: grid;
     grid-template-columns:75px 75px 75px 75px;
