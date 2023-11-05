@@ -12,6 +12,15 @@ url("./clouds.jpg");
 @import 
 url('https://fonts.cdnfonts.com/css/calculator');
 
+header {
+    background-color: pink;
+    width: 100%;
+    opacity: 80%;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 50px;
+}
 img {
     width:300px;
     background-repeat: repeat-y;
