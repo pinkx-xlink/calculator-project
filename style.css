@@ -22,7 +22,7 @@ h1 {
     background-color: rgb(5, 92, 5);
     padding:15px;
     height: 500px;
-    width: 450px;
+    width: 400px;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -56,3 +56,4 @@ button {
 .span-two {
     grid-column: span 2;
 }
+
