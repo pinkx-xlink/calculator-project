@@ -128,9 +128,6 @@ deleteButton.addEventListener('click', button => {
     calculator.updateDisplay()
 })
 
-
-
-
 const audio = new Audio("./btn-audio.mp3");
 const buttons = document.querySelectorAll("button");
 buttons.forEach(button => {
@@ -138,8 +135,6 @@ buttons.forEach(button => {
         audio.play();
     });
 });
-
-
 
 document.addEventListener('keydown', function (event) {
     let patternForNumbers = /[0-9]/g;
