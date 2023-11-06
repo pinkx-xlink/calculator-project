@@ -5,14 +5,6 @@ class Calculator {
         this.clear()
     }
 
-    const audio = new Audio("btn-audio.mp3");
-    const buttons = document.querySelectorAll("button");
-    buttons.forEach(button => {
-        button.addEventListener("click", () => {
-            audio.play();
-        });
-    });
-
     clear() {
         this.currentOperand = ''
         this.previousOperand = ''
@@ -135,6 +127,19 @@ deleteButton.addEventListener('click', button => {
     calculator.delete()
     calculator.updateDisplay()
 })
+
+
+
+
+const audio = new Audio("./btn-audio.mp3");
+const buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        audio.play();
+    });
+});
+
+
 
 document.addEventListener('keydown', function (event) {
     let patternForNumbers = /[0-9]/g;
