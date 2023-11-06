@@ -5,6 +5,14 @@ class Calculator {
         this.clear()
     }
 
+    const audio = new Audio("btn-audio.mp3");
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            audio.play();
+        });
+    });
+
     clear() {
         this.currentOperand = ''
         this.previousOperand = ''
